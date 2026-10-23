@@ -1,0 +1,33 @@
+{
+  "overview_metrics": [
+    "10,500",
+    "56,437",
+    "17",
+    "7.33"
+  ],
+  "overview_plotly_traces": [
+    {
+      "traces": 1,
+      "type": "histogram"
+    },
+    {
+      "traces": 1,
+      "type": "bar"
+    }
+  ],
+  "plotly_drag_zoom_changed_axis_range": true,
+  "activity_bar_count": 17,
+  "boundaries_rendered": true,
+  "duration_filter_metrics": [
+    "10,328",
+    "56,190",
+    "17",
+    "7.35"
+  ],
+  "reset_restored_cases": true,
+  "mobile_document_width": {
+    "viewport": 390,
+    "document": 390
+  },
+  "browser_exceptions_visible": 0
+}

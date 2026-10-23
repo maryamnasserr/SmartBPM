@@ -1,0 +1,22 @@
+{
+  "overview_plotly_charts": 2,
+  "ml_navigation_seconds": 1.1304495000003953,
+  "ml_text": "Skip to main content\n\u25c8 SmartBPM\n\nExplore\n\nOverview\n\nActivities & resources\n\nVariants & repetition\n\nCase boundaries\n\nCase explorer\n\nProcess Mining\n\nPerformance Investigation\n\nML Preparation\n\nSelect a case cohort\n\nMatches retain complete case histories. OR within each selection; AND between filters. Activity and resource can match different events in a case.\n\nkeyboard_arrow_right\n\nActivity selection\n\nCases involving any resource\n\nSTAFF MEMBER\nSYSTEM\n\nCase start date (UTC)\n\n2017\n/\n01\n/\n09\n\u2013\n2018\n/\n12\n/\n29\n\nObserved case elapsed days\n\n0.00\n\n470.00\n\n0.00\n\n470.00\n\nReset filters\n\nClear an activity or resource selection to show an empty cohort.\n\nDeploy\nSmartBPM\n\nPROCESS INTELLIGENCE / HISTORICAL EVIDENCE\n\nExplore process behavior, inspect case histories, and compare observed performance.\n\nFULL DATASET \u00b7 Domestic Declarations \u00b7 10,500 cases \u00b7 56,437 events \u00b7 17 activities\n\nEvent date range (UTC): 09 Jan 2017 08:49 \u2014 17 Jun 2019 15:30\n\nML Preparation\n\nThe model has not been trained yet. These are historical labels and preparation statistics, not AI predictions.\n\nFrozen full-dataset research design. Sidebar cohort filters do not refit thresholds, splits or these preparation statistics.\n\nPredict whether total observed elapsed duration exceeds a research threshold, immediately after the second recorded event. Equality is negative. This is not remaining duration or an official SLA.\n\nUnresolved eligible cases\n\n9,536\n\nResearch threshold days\n\n11.105428240741\n\nAlready over threshold\n\n333\n\nEligibility accounting\n\nKnown-positive exclusions take priority over overlap exclusions. All case groups sum to the original 10,500 cases.\n\nChronological partitions and historical labels\nFeature availability\n\nPrimary features: first and second activities, prefix elapsed hours, UTC month, weekday and hour. Only two recorded events contribute. Resources and roles are sensitivity-only until ingestion availability is verified. Final case attributes and future outcomes are excluded. IDs and timestamps are audit metadata.\n\nObserved endpoints do not certify completion. Censoring, source-order timestamp ties, singleton selection and overlap purging limit interpretation. Preprocessing fits only unresolved training rows; later unseen categories use zero indicators.",
+  "ml_metrics": [
+    "Unresolved eligible cases\n\n9,536",
+    "Research threshold days\n\n11.105428240741",
+    "Already over threshold\n\n333"
+  ],
+  "ml_tables": 3,
+  "mobile_width": {
+    "viewport": 390,
+    "document": 390
+  },
+  "process_mining_svg": true,
+  "performance_page": true,
+  "activities_page": true,
+  "variants_page": true,
+  "boundaries_page": true,
+  "case_explorer_page": true,
+  "rendered_exceptions": 0
+}

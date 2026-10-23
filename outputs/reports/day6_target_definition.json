@@ -1,0 +1,118 @@
+{
+  "target": "long_observed_case_elapsed_duration",
+  "status": "Proposed methodology only; no trained model",
+  "formula": "y = 1[(last observed timestamp - first observed timestamp)/86400 seconds > threshold_days]",
+  "units": "days",
+  "prediction_point": "Immediately after second recorded event in canonical timestamp/source order",
+  "eligible_cases": 10366,
+  "excluded_single_event_cases": 134,
+  "already_above_threshold_cases": 333,
+  "unknown_at_prediction_cases": 10033,
+  "label_scope": "Recorded span only, not true completion time or an official SLA",
+  "validation_start": "2018-06-27T09:27:50+00:00",
+  "test_start": "2018-10-12T13:06:56+00:00",
+  "threshold_days": 11.105428240740741,
+  "threshold_source": "75th percentile of training-only observed durations after overlap purging; linear interpolation",
+  "split_counts": {
+    "train": 5951,
+    "test": 2074,
+    "validation": 1821,
+    "purged_overlap": 520
+  },
+  "class_balance": [
+    {
+      "cohort": "all_eligible",
+      "cases": 10366,
+      "positive": 3085,
+      "negative": 7281,
+      "positive_share": 0.2976075631873432
+    },
+    {
+      "cohort": "purged_overlap",
+      "cases": 520,
+      "positive": 291,
+      "negative": 229,
+      "positive_share": 0.5596153846153846
+    },
+    {
+      "cohort": "test",
+      "cases": 2074,
+      "positive": 741,
+      "negative": 1333,
+      "positive_share": 0.35728061716489873
+    },
+    {
+      "cohort": "train",
+      "cases": 5951,
+      "positive": 1488,
+      "negative": 4463,
+      "positive_share": 0.2500420097462611
+    },
+    {
+      "cohort": "validation",
+      "cases": 1821,
+      "positive": 565,
+      "negative": 1256,
+      "positive_share": 0.3102690829214717
+    }
+  ],
+  "unknown_label_class_balance": [
+    {
+      "split": "purged_overlap",
+      "cases": 497,
+      "positive": 268,
+      "negative": 229
+    },
+    {
+      "split": "test",
+      "cases": 2001,
+      "positive": 668,
+      "negative": 1333
+    },
+    {
+      "split": "train",
+      "cases": 5783,
+      "positive": 1320,
+      "negative": 4463
+    },
+    {
+      "split": "validation",
+      "cases": 1752,
+      "positive": 496,
+      "negative": 1256
+    }
+  ],
+  "candidate_features": [
+    "current_activity",
+    "org:resource",
+    "org:role",
+    "utc_month",
+    "utc_weekday",
+    "utc_hour",
+    "prefix_elapsed_hours",
+    "first_activity"
+  ],
+  "prefix_features": "Exact first-two-activity prefix, first/current activity, observed prefix elapsed hours; prefix length 2 is constant and dropped",
+  "excluded_features": [
+    "case:Amount",
+    "case:BudgetNumber",
+    "case:DeclarationNumber",
+    "case:id",
+    "case identifier",
+    "final elapsed duration",
+    "future event count",
+    "final variant",
+    "final outcome",
+    "future activities",
+    "absolute timestamp and source row as model features"
+  ],
+  "attribute_availability": "Final XES trace attributes have no as-of version history; availability at the prediction point cannot be established. Exclude them. Event attributes require ingestion-time availability confirmation before deployment.",
+  "evaluation": "Chronological 60/20/20 by prediction timestamp, equal timestamps stay together; purge train/validation observed endpoints reaching next split boundary. Freeze threshold on remaining training only; fit encoders/imputers on train only. Report purged-case bias and endpoint sensitivity. No case crosses feature partitions. Report already-above-threshold cases separately; future predictive metrics must also exclude these known positives without refitting the frozen threshold.",
+  "limitations": [
+    "Unknown censoring: low observed span is not proof of prompt true completion",
+    "Second-event eligibility excludes 134 singleton traces in this dataset; report this selection bias",
+    "First-event features have almost no variation; second-event features are richer but may still be weak",
+    "No causal intervention benefit follows from observational associations",
+    "Future simulation must use explicit scenario assumptions; service/queue/capacity cannot be identified here"
+  ]
+}

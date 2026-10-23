@@ -1,0 +1,134 @@
+{
+  "validation_start": "2018-06-27T09:27:50+00:00",
+  "test_start": "2018-10-12T13:06:56+00:00",
+  "threshold_days": 11.105428240740741,
+  "threshold_source": "75th percentile of training-only observed durations after overlap purging; linear interpolation",
+  "split_counts": {
+    "train": 5951,
+    "test": 2074,
+    "validation": 1821,
+    "purged_overlap": 520
+  },
+  "initial_proportions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "final_class_balance": [
+    {
+      "split": "test",
+      "cases": 2001,
+      "positive": 668,
+      "negative": 1333
+    },
+    {
+      "split": "train",
+      "cases": 5783,
+      "positive": 1320,
+      "negative": 4463
+    },
+    {
+      "split": "validation",
+      "cases": 1752,
+      "positive": 496,
+      "negative": 1256
+    }
+  ],
+  "all_event2_class_balance": [
+    {
+      "split": "purged_overlap",
+      "cases": 520,
+      "positive": 291,
+      "negative": 229
+    },
+    {
+      "split": "test",
+      "cases": 2074,
+      "positive": 741,
+      "negative": 1333
+    },
+    {
+      "split": "train",
+      "cases": 5951,
+      "positive": 1488,
+      "negative": 4463
+    },
+    {
+      "split": "validation",
+      "cases": 1821,
+      "positive": 565,
+      "negative": 1256
+    }
+  ],
+  "known_positive_class_balance": [
+    {
+      "split": "purged_overlap",
+      "cases": 23,
+      "positive": 23,
+      "negative": 0
+    },
+    {
+      "split": "test",
+      "cases": 73,
+      "positive": 73,
+      "negative": 0
+    },
+    {
+      "split": "train",
+      "cases": 168,
+      "positive": 168,
+      "negative": 0
+    },
+    {
+      "split": "validation",
+      "cases": 69,
+      "positive": 69,
+      "negative": 0
+    }
+  ],
+  "unresolved_including_purged_class_balance": [
+    {
+      "split": "purged_overlap",
+      "cases": 497,
+      "positive": 268,
+      "negative": 229
+    },
+    {
+      "split": "test",
+      "cases": 2001,
+      "positive": 668,
+      "negative": 1333
+    },
+    {
+      "split": "train",
+      "cases": 5783,
+      "positive": 1320,
+      "negative": 4463
+    },
+    {
+      "split": "validation",
+      "cases": 1752,
+      "positive": 496,
+      "negative": 1256
+    }
+  ],
+  "prediction_ranges": {
+    "test": {
+      "min": "2018-10-12T13:06:56+00:00",
+      "max": "2018-12-29T16:56:13+00:00"
+    },
+    "train": {
+      "min": "2017-01-09T10:27:48+00:00",
+      "max": "2018-06-25T12:09:34+00:00"
+    },
+    "validation": {
+      "min": "2018-06-27T09:27:50+00:00",
+      "max": "2018-10-10T10:11:29+00:00"
+    }
+  },
+  "unpurged_overlap_counts": {
+    "training_at_validation": 268,
+    "validation_at_test": 252
+  },
+  "evaluation": "Retrospective chronological endpoint-purged approximation; not certified prospective completion labels"
+}

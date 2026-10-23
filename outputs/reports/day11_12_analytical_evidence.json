@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Analytical evidence for future controlled retrieval; no recommendation generation",
+  "facts": {
+    "model": {
+      "family": "forest",
+      "name": "Random forest",
+      "artifact_version": "2.0",
+      "selected_model_sha256": "0b81d32320be97af85525352f10ced549d970508cdb605954701e3f0b4ba1ba1"
+    },
+    "prediction_definition": {
+      "landmark": "Immediately after second recorded event",
+      "positive_class": "Observed total case duration strictly exceeds research cutoff",
+      "duration_cutoff_days": 11.105428240740741,
+      "probability_decision_threshold": 0.22,
+      "official_sla": false,
+      "approved_features": [
+        "first_activity",
+        "second_activity",
+        "prefix_elapsed_hours",
+        "utc_month",
+        "utc_weekday",
+        "utc_hour"
+      ]
+    },
+    "validation_metrics_at_common_0_5": {
+      "cases": 1752,
+      "decision_threshold": 0.5,
+      "accuracy": 0.7254566210045662,
+      "precision": 0.8947368421052632,
+      "recall": 0.034274193548387094,
+      "f1": 0.06601941747572816,
+      "roc_auc": 0.6854638059893158,
+      "average_precision": 0.48377621996863357,
+      "brier_score": 0.1926726754847286,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          1254,
+          2
+        ],
+        [
+          479,
+          17
+        ]
+      ]
+    },
+    "validation_metrics_at_saved_f1_threshold": {
+      "cases": 1752,
+      "decision_threshold": 0.22,
+      "accuracy": 0.5907534246575342,
+      "precision": 0.3815648445873526,
+      "recall": 0.717741935483871,
+      "f1": 0.4982505248425472,
+      "roc_auc": 0.6854638059893158,
+      "average_precision": 0.48377621996863357,
+      "brier_score": 0.1926726754847286,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          679,
+          577
+        ],
+        [
+          140,
+          356
+        ]
+      ]
+    },
+    "global_importance": [
+      {
+        "feature": "prefix_elapsed_hours",
+        "mean_ap_drop": 0.08041412533979564,
+        "std_ap_drop": 0.003427988830210798,
+        "min_ap_drop": 0.07457720657042416,
+        "max_ap_drop": 0.08590371519072654
+      },
+      {
+        "feature": "utc_weekday",
+        "mean_ap_drop": 0.062440974327275287,
+        "std_ap_drop": 0.0110098378376973,
+        "min_ap_drop": 0.04210891774856956,
+        "max_ap_drop": 0.08316641752098064
+      },
+      {
+        "feature": "second_activity",
+        "mean_ap_drop": 0.05635731958495689,
+        "std_ap_drop": 0.00757577901141498,
+        "min_ap_drop": 0.04407370095993979,
+        "max_ap_drop": 0.07362145952743565
+      },
+      {
+        "feature": "utc_month",
+        "mean_ap_drop": 0.036413418667134344,
+        "std_ap_drop": 0.006783040335492124,
+        "min_ap_drop": 0.02670135486761982,
+        "max_ap_drop": 0.04824925714118938
+      },
+      {
+        "feature": "utc_hour",
+        "mean_ap_drop": 0.006772288759538258,
+        "std_ap_drop": 0.005030580356251881,
+        "min_ap_drop": -0.0034675337331751543,
+        "max_ap_drop": 0.014928819064628007
+      },
+      {
+        "feature": "first_activity",
+        "mean_ap_drop": 0.0,
+        "std_ap_drop": 0.0,
+        "min_ap_drop": 0.0,
+        "max_ap_drop": 0.0
+      }
+    ],
+    "process_mining_references": [
+      {
+        "path": "outputs/reports/day5_transitions.csv",
+        "scope": "Full-log observed adjacency, not proof of bottlenecks",
+        "sha256": "dedf41b3f62306b92ff1d09253370ee931c881c75c0eb4ea25bd00bdfa4d1b27",
+        "available_at_export": true
+      },
+      {
+        "path": "outputs/reports/day6_investigation.json",
+        "scope": "Historical duration/repetition/variant associations",
+        "sha256": "281d0147a118918276c9228ec1a85aabdfa85f9384c14d8cee475b0f066d549b",
+        "available_at_export": true
+      },
+      {
+        "path": "docs/DAY7_8_ML_PREPARATION.md",
+        "scope": "Target, eligibility, chronology and purging",
+        "sha256": "cf9eacb77160df4c0bdc7213a6343457ba422b91861847419116b9586eed7a3d",
+        "available_at_export": true
+      }
+    ],
+    "case": null
+  },
+  "interpretations": {
+    "scope": "Predictive associations only; no causal or intervention claim",
+    "advanced_model_ap_gain": 0.018644388088465635
+  },
+  "limitations": [
+    "Predictive associations do not establish causes, bottlenecks, inefficiency or intervention benefits.",
+    "Marginal shuffling/masking can combine correlated features unrealistically; importance may be shared or suppressed.",
+    "Empirical Shapley values depend on the fixed training background; exact coalitions do not remove background-sampling uncertainty.",
+    "Validation is reused for model selection, threshold exploration and XAI; test remains locked.",
+    "Recorded endpoints may be censored; landmark and overlap-purging exclusions restrict the population."
+  ],
+  "provenance": {
+    "dataset_sha256": "7d6839bacf3376569eb3e94ffc5979d33d4c350875f80887dd76f0fd3437e716",
+    "validation_case_ids_sha256": "90eddda357c4e46707800bfe8651a6651175f17b55db1ee719b0f9438decbaa0",
+    "chronology": {
+      "validation_start": "2018-06-27T09:27:50+00:00",
+      "test_start": "2018-10-12T13:06:56+00:00",
+      "partition_counts": {
+        "train": 5783,
+        "test": 2001,
+        "validation": 1752
+      },
+      "endpoint_purging": "Training labels end before next evaluation cutoff"
+    },
+    "background_source": "Training only, fixed seeded sample",
+    "test_evaluated": false
+  },
+  "prohibited_inferences": [
+    "Feature causes inefficiency",
+    "Changing a feature reduces delay",
+    "Validated live organizational risk"
+  ]
+}

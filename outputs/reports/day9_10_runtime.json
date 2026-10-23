@@ -1,0 +1,22 @@
+{
+  "total_seconds": 21.221571400001267,
+  "source_sha256_unchanged": true,
+  "protected_source_sha256": {
+    "data\\raw\\DomesticDeclarations.xes": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+    "data\\processed\\domestic_declarations_cleaned.parquet": "f21c1b67840873a2714e140d60634635f2e081d4f6943fe1c06e43dc013d4a8f",
+    "data\\processed\\domestic_declarations_ml_ready.parquet": "7d6839bacf3376569eb3e94ffc5979d33d4c350875f80887dd76f0fd3437e716",
+    "data\\processed\\domestic_declarations_ml_audit.parquet": "3f43d8628b1aa026582ac8f5874de1f8a042132a36f334da72aba56f4e263758"
+  },
+  "artifacts_reloaded_predictions_exact": true,
+  "test_predictions_generated": false,
+  "artifact_bytes": {
+    "elapsed_explanation.csv": 126,
+    "logistic_explanation.csv": 3617,
+    "manifest.json": 201908,
+    "models.joblib": 4431,
+    "prevalence_explanation.csv": 95,
+    "tree_explanation.csv": 1922,
+    "validation_predictions.parquet": 55617,
+    "validation_report.json": 221292
+  }
+}

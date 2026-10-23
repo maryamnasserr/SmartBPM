@@ -1,0 +1,196 @@
+{
+  "checks_passed": true,
+  "independent_method": "Raw XES XML matched source-order cleaned case/activity/time rows; Pandas groupby and Counter; no SmartBPM analytics imported",
+  "cases": 10500,
+  "events": 56437,
+  "activities": 17,
+  "variants": 99,
+  "relationships": 39,
+  "transition_occurrences": 45937,
+  "repeating_cases": 1019,
+  "duration_days": {
+    "count": 10500.0,
+    "mean": 11.525721979717813,
+    "std": 17.02056573180521,
+    "min": 0.0,
+    "50%": 7.330289351851851,
+    "75%": 12.241634837962962,
+    "90%": 20.120839120370373,
+    "95%": 29.20535358796295,
+    "max": 469.23631944444446
+  },
+  "threshold_days": 11.105428240740741,
+  "validation_start": "2018-06-27T09:27:50+00:00",
+  "test_start": "2018-10-12T13:06:56+00:00",
+  "event2_cases": 10366,
+  "singletons": 134,
+  "known_positive": 333,
+  "purged_overlap": 520,
+  "known_positive_and_overlap": 23,
+  "final_ml_cases": 9536,
+  "partitions": [
+    {
+      "split": "test",
+      "cases": 2001,
+      "positive": 668
+    },
+    {
+      "split": "train",
+      "cases": 5783,
+      "positive": 1320
+    },
+    {
+      "split": "validation",
+      "cases": 1752,
+      "positive": 496
+    }
+  ],
+  "activity_frequency": {
+    "Declaration SUBMITTED by EMPLOYEE": 11531,
+    "Declaration FINAL_APPROVED by SUPERVISOR": 10131,
+    "Payment Handled": 10044,
+    "Request Payment": 10040,
+    "Declaration APPROVED by ADMINISTRATION": 8202,
+    "Declaration APPROVED by BUDGET OWNER": 2820,
+    "Declaration REJECTED by EMPLOYEE": 1365,
+    "Declaration REJECTED by ADMINISTRATION": 952,
+    "Declaration APPROVED by PRE_APPROVER": 685,
+    "Declaration REJECTED by SUPERVISOR": 293,
+    "Declaration SAVED by EMPLOYEE": 135,
+    "Declaration REJECTED by MISSING": 91,
+    "Declaration REJECTED by PRE_APPROVER": 86,
+    "Declaration REJECTED by BUDGET OWNER": 59,
+    "Declaration FOR_APPROVAL by ADMINISTRATION": 1,
+    "Declaration FOR_APPROVAL by SUPERVISOR": 1,
+    "Declaration FOR_APPROVAL by PRE_APPROVER": 1
+  },
+  "resource_frequency": {
+    "STAFF MEMBER": 36353,
+    "SYSTEM": 20084
+  },
+  "top_variant_cases": [
+    4618,
+    2473,
+    1392,
+    575,
+    345
+  ],
+  "walkthrough": {
+    "case_id": "declaration 108210",
+    "events": 18,
+    "elapsed_days": 33.81275462962963,
+    "history": [
+      {
+        "activity": "Declaration SUBMITTED by EMPLOYEE",
+        "timestamp": "2018-04-10T20:00:59+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration REJECTED by ADMINISTRATION",
+        "timestamp": "2018-04-10T20:21:08+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration REJECTED by EMPLOYEE",
+        "timestamp": "2018-04-18T05:58:13+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration SUBMITTED by EMPLOYEE",
+        "timestamp": "2018-04-22T16:09:47+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration APPROVED by ADMINISTRATION",
+        "timestamp": "2018-04-22T16:28:01+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration REJECTED by SUPERVISOR",
+        "timestamp": "2018-04-23T06:43:45+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration REJECTED by EMPLOYEE",
+        "timestamp": "2018-04-23T14:32:57+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration SUBMITTED by EMPLOYEE",
+        "timestamp": "2018-04-24T16:32:53+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration APPROVED by ADMINISTRATION",
+        "timestamp": "2018-04-24T16:32:56+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration REJECTED by BUDGET OWNER",
+        "timestamp": "2018-04-25T05:42:24+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration SUBMITTED by EMPLOYEE",
+        "timestamp": "2018-05-01T07:55:20+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration FOR_APPROVAL by ADMINISTRATION",
+        "timestamp": "2018-05-01T08:05:09+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration SUBMITTED by EMPLOYEE",
+        "timestamp": "2018-05-02T08:28:53+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration APPROVED by ADMINISTRATION",
+        "timestamp": "2018-05-02T08:28:56+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration APPROVED by BUDGET OWNER",
+        "timestamp": "2018-05-02T09:07:51+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Declaration FINAL_APPROVED by SUPERVISOR",
+        "timestamp": "2018-05-08T10:33:12+00:00",
+        "resource": "STAFF MEMBER"
+      },
+      {
+        "activity": "Request Payment",
+        "timestamp": "2018-05-10T07:35:41+00:00",
+        "resource": "SYSTEM"
+      },
+      {
+        "activity": "Payment Handled",
+        "timestamp": "2018-05-14T15:31:21+00:00",
+        "resource": "SYSTEM"
+      }
+    ],
+    "ml_row": [
+      {
+        "case:concept:name": "declaration 108210",
+        "first_activity": "Declaration SUBMITTED by EMPLOYEE",
+        "second_activity": "Declaration REJECTED by ADMINISTRATION",
+        "prefix_elapsed_hours": 0.3358333333,
+        "utc_month": 4.0,
+        "utc_weekday": 1.0,
+        "utc_hour": 20.0,
+        "first_timestamp": "2018-04-10T20:00:59.000Z",
+        "second_timestamp": "2018-04-10T20:21:08.000Z",
+        "prediction_timestamp": "2018-04-10T20:21:08.000Z",
+        "target_long_observed": 1,
+        "split": "train"
+      }
+    ]
+  },
+  "source_sha256": {
+    "data\\raw\\DomesticDeclarations.xes": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+    "data\\processed\\domestic_declarations_cleaned.parquet": "f21c1b67840873a2714e140d60634635f2e081d4f6943fe1c06e43dc013d4a8f"
+  },
+  "elapsed_seconds": 12.44693610000104
+}

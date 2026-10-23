@@ -1,0 +1,1 @@
+Optional static research figures from scripts/run_day2.py are written here. Use --no-figures to skip them. Historical PNGs in the reports root are retained at their original paths. Routine Streamlit use generates no server-side PNGs. Browser verification screenshots are stored separately under browser_checks/.

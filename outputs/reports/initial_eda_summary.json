@@ -1,0 +1,220 @@
+{
+  "total_cases": 10500,
+  "total_events": 56437,
+  "total_activities": 17,
+  "variant_count": 99,
+  "duration_days": {
+    "count": 10500.0,
+    "mean": 11.525721979717813,
+    "std": 17.02056573180521,
+    "min": 0.0,
+    "5%": 2.3537754629629632,
+    "25%": 5.817022569444445,
+    "50%": 7.330289351851851,
+    "75%": 12.241634837962962,
+    "90%": 20.120839120370373,
+    "95%": 29.20535358796295,
+    "99%": 76.29458449074089,
+    "max": 469.23631944444446
+  },
+  "events_per_case": {
+    "count": 10500.0,
+    "mean": 5.374952380952381,
+    "std": 1.4864153718914082,
+    "min": 1.0,
+    "25%": 5.0,
+    "50%": 5.0,
+    "75%": 6.0,
+    "max": 24.0
+  },
+  "activity_frequency": {
+    "Declaration SUBMITTED by EMPLOYEE": 11531,
+    "Declaration FINAL_APPROVED by SUPERVISOR": 10131,
+    "Payment Handled": 10044,
+    "Request Payment": 10040,
+    "Declaration APPROVED by ADMINISTRATION": 8202,
+    "Declaration APPROVED by BUDGET OWNER": 2820,
+    "Declaration REJECTED by EMPLOYEE": 1365,
+    "Declaration REJECTED by ADMINISTRATION": 952,
+    "Declaration APPROVED by PRE_APPROVER": 685,
+    "Declaration REJECTED by SUPERVISOR": 293,
+    "Declaration SAVED by EMPLOYEE": 135,
+    "Declaration REJECTED by MISSING": 91,
+    "Declaration REJECTED by PRE_APPROVER": 86,
+    "Declaration REJECTED by BUDGET OWNER": 59,
+    "Declaration FOR_APPROVAL by ADMINISTRATION": 1,
+    "Declaration FOR_APPROVAL by SUPERVISOR": 1,
+    "Declaration FOR_APPROVAL by PRE_APPROVER": 1
+  },
+  "common_starts": {
+    "Declaration SUBMITTED by EMPLOYEE": 10365,
+    "Declaration SAVED by EMPLOYEE": 135
+  },
+  "common_ends": {
+    "Payment Handled": 10043,
+    "Declaration REJECTED by EMPLOYEE": 284,
+    "Declaration SAVED by EMPLOYEE": 134,
+    "Declaration REJECTED by MISSING": 30,
+    "Declaration REJECTED by ADMINISTRATION": 5,
+    "Declaration REJECTED by SUPERVISOR": 4
+  },
+  "top_variants": [
+    {
+      "variant_id": "V0001",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 4618,
+      "case_share": 0.4398095238095238
+    },
+    {
+      "variant_id": "V0002",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration APPROVED by BUDGET OWNER\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 2473,
+      "case_share": 0.23552380952380952
+    },
+    {
+      "variant_id": "V0003",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 1392,
+      "case_share": 0.13257142857142856
+    },
+    {
+      "variant_id": "V0004",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by PRE_APPROVER\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 575,
+      "case_share": 0.05476190476190476
+    },
+    {
+      "variant_id": "V0005",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration REJECTED by ADMINISTRATION\", \"Declaration REJECTED by EMPLOYEE\", \"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 345,
+      "case_share": 0.032857142857142856
+    },
+    {
+      "variant_id": "V0006",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration REJECTED by ADMINISTRATION\", \"Declaration REJECTED by EMPLOYEE\", \"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration APPROVED by BUDGET OWNER\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 188,
+      "case_share": 0.017904761904761906
+    },
+    {
+      "variant_id": "V0007",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration REJECTED by ADMINISTRATION\", \"Declaration REJECTED by EMPLOYEE\"]",
+      "case_count": 174,
+      "case_share": 0.01657142857142857
+    },
+    {
+      "variant_id": "V0008",
+      "sequence": "[\"Declaration SAVED by EMPLOYEE\"]",
+      "case_count": 134,
+      "case_share": 0.012761904761904763
+    },
+    {
+      "variant_id": "V0009",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration REJECTED by SUPERVISOR\", \"Declaration REJECTED by EMPLOYEE\", \"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by ADMINISTRATION\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 77,
+      "case_share": 0.007333333333333333
+    },
+    {
+      "variant_id": "V0010",
+      "sequence": "[\"Declaration SUBMITTED by EMPLOYEE\", \"Declaration REJECTED by PRE_APPROVER\", \"Declaration REJECTED by EMPLOYEE\", \"Declaration SUBMITTED by EMPLOYEE\", \"Declaration APPROVED by PRE_APPROVER\", \"Declaration FINAL_APPROVED by SUPERVISOR\", \"Request Payment\", \"Payment Handled\"]",
+      "case_count": 57,
+      "case_share": 0.0054285714285714284
+    }
+  ],
+  "cases_with_repeated_activities": 1019,
+  "adjacent_repeated_activity_events": 0,
+  "repeated_activity_patterns": [
+    {
+      "concept:name": "Declaration SUBMITTED by EMPLOYEE",
+      "cases": 1019,
+      "excess_occurrences": 1166
+    },
+    {
+      "concept:name": "Declaration APPROVED by ADMINISTRATION",
+      "cases": 210,
+      "excess_occurrences": 219
+    },
+    {
+      "concept:name": "Declaration REJECTED by EMPLOYEE",
+      "cases": 139,
+      "excess_occurrences": 153
+    },
+    {
+      "concept:name": "Declaration REJECTED by ADMINISTRATION",
+      "cases": 93,
+      "excess_occurrences": 106
+    },
+    {
+      "concept:name": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "cases": 58,
+      "excess_occurrences": 61
+    },
+    {
+      "concept:name": "Declaration APPROVED by PRE_APPROVER",
+      "cases": 18,
+      "excess_occurrences": 19
+    },
+    {
+      "concept:name": "Declaration APPROVED by BUDGET OWNER",
+      "cases": 13,
+      "excess_occurrences": 13
+    },
+    {
+      "concept:name": "Declaration REJECTED by SUPERVISOR",
+      "cases": 12,
+      "excess_occurrences": 12
+    },
+    {
+      "concept:name": "Declaration REJECTED by PRE_APPROVER",
+      "cases": 5,
+      "excess_occurrences": 5
+    },
+    {
+      "concept:name": "Declaration REJECTED by MISSING",
+      "cases": 3,
+      "excess_occurrences": 4
+    },
+    {
+      "concept:name": "Declaration REJECTED by BUDGET OWNER",
+      "cases": 1,
+      "excess_occurrences": 1
+    }
+  ],
+  "endpoint_observations": {
+    "cases_not_ending_in_Payment_Handled": 457,
+    "note": "Dataset-specific descriptive flag, not proof of error or incompleteness. Rejection, alternative endings or observation boundaries may matter."
+  },
+  "interpretation": [
+    "Case elapsed duration is last minus first observed timestamp, not active processing time.",
+    "Unknown pre-log or post-log activity can censor observed case durations.",
+    "Variants and endpoints use chronological order; timestamp ties retain XES order.",
+    "Rare variants, long/short traces and repetitions are retained as observed behavior."
+  ],
+  "source_sha256": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+  "column_mapping": {
+    "case": "case:concept:name",
+    "activity": "concept:name",
+    "timestamp": "time:timestamp",
+    "event_id": "id",
+    "resource": "org:resource"
+  },
+  "tables": [
+    "case_summary.csv",
+    "activity_frequency.csv",
+    "resource_frequency.csv",
+    "process_variants.csv",
+    "repeated_activities_by_case.csv",
+    "repeated_activity_summary.csv",
+    "starting_activities.csv",
+    "ending_activities.csv",
+    "duration_distribution.csv"
+  ],
+  "charts": [
+    "activity_frequency.png",
+    "resource_frequency.png",
+    "starting_activities.png",
+    "ending_activities.png",
+    "case_duration_distribution.png",
+    "events_per_case.png",
+    "top_process_variants.png"
+  ]
+}

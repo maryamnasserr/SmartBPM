@@ -1,0 +1,23 @@
+{
+  "main_7": {
+    "seconds": [
+      0.5263838000028045,
+      0.5211163999993005,
+      0.39607059999980265
+    ],
+    "median_seconds": 0.5211163999993005,
+    "rendered_links": 7,
+    "underlying_occurrences": 45937
+  },
+  "all_39": {
+    "seconds": [
+      0.4009982999996282,
+      0.36555480000242824,
+      0.39549429999897256
+    ],
+    "median_seconds": 0.39549429999897256,
+    "rendered_links": 39,
+    "underlying_occurrences": 45937
+  },
+  "note": "Three perf_counter samples for Python option preparation plus activity inspection; browser layout/startup are measured separately. Old Plotly baseline is spec-only, so timings are not an end-to-end speed comparison."
+}

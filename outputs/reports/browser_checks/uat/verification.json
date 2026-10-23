@@ -1,0 +1,896 @@
+{
+  "pages": {
+    "Overview": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 2,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Activities & resources": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 2,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Variants & repetition": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33",
+        "Observed variants\n\n99",
+        "Cases with repeated activities\n\n1,019"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 2,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Case boundaries": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 2,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Case explorer": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 0,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Process Mining": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33",
+        "Observed transitions\n\n45,937",
+        "Distinct relationships\n\n39",
+        "Observed variants\n\n99",
+        "Activity occurrences\n\n11,531",
+        "Cases containing activity\n\n10,365",
+        "Cases repeating activity\n\n1,019"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 2,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "Performance Investigation": {
+      "metrics": [
+        "Selected cases\n\n10,500",
+        "Selected events\n\n56,437",
+        "Selected activities\n\n17",
+        "Median elapsed days\n\n7.33",
+        "Mean observed days\n\n11.53",
+        "Cases repeating activities\n\n9.7%",
+        "Observed variants\n\n99"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 3,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "ML Preparation": {
+      "metrics": [
+        "Unresolved eligible cases\n\n9,536",
+        "Research threshold days\n\n11.105428240741",
+        "Already over threshold\n\n333"
+      ],
+      "exceptions": 0,
+      "plotly_charts": 0,
+      "mobile_width": {
+        "viewport": 390,
+        "document": 390
+      }
+    }
+  },
+  "interactions": {
+    "plotly_zoom_reset": true,
+    "chart_frequencies_match_raw_records": true,
+    "case_selected": "declaration 108210",
+    "graph_wheel_zoom_and_drag_pan": true,
+    "detailed_graph_exact_39_counts": true,
+    "map_activity_and_direction": true,
+    "variant_selection": true,
+    "performance_all_tabs": true,
+    "activity_empty_state": true,
+    "whole_case_filter": [
+      "Selected cases\n\n1",
+      "Selected events\n\n18",
+      "Selected activities\n\n11",
+      "Median elapsed days\n\n33.81"
+    ],
+    "reset_all_cases": true,
+    "browser_refresh": true,
+    "ml_frozen_with_empty_cohort": true,
+    "duration_slider": true,
+    "date_range_calendar": true
+  },
+  "downloads": [
+    "Download selected case summary",
+    "Export displayed transitions",
+    "Export all cohort transitions",
+    "Export variant performance",
+    "Export repetition group statistics",
+    "Export case repetition flags",
+    "Export investigated variants",
+    "Export candidate comparison",
+    "Download selected case summary"
+  ],
+  "browser_console_errors": [],
+  "download_events": [
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "url": "http://127.0.0.1:8504/media/f91401f0202684dad57b66505f541a60.csv",
+        "suggestedFilename": "smartbpm_selected_cases.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 0,
+        "receivedBytes": 1828276,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 0,
+        "receivedBytes": 1828276,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 1828276,
+        "receivedBytes": 1828276,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 1828276,
+        "receivedBytes": 1828276,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "2055d497-4d08-48c1-84c9-5c4fb883f927",
+        "totalBytes": 1828276,
+        "receivedBytes": 1828276,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_selected_cases.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "url": "http://127.0.0.1:8504/media/a68bbae9c63c35a34eaf83f30b63fcb7.csv",
+        "suggestedFilename": "smartbpm_displayed_transitions.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 0,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 0,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "7e9700e8-55b0-4068-b4bf-4b4df8734f5b",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_displayed_transitions.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "url": "http://127.0.0.1:8504/media/a665b205129ade3c53fc6efd735ac095.csv",
+        "suggestedFilename": "smartbpm_all_transitions.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 0,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 0,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1f430512-18f5-48ab-a147-6e4510e9f6a4",
+        "totalBytes": 6688,
+        "receivedBytes": 6688,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_all_transitions.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "url": "http://127.0.0.1:8504/media/240e985b2591bd33b70e34c4725a1e78.csv",
+        "suggestedFilename": "smartbpm_variant_performance.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 0,
+        "receivedBytes": 47610,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 0,
+        "receivedBytes": 47610,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 47610,
+        "receivedBytes": 47610,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 47610,
+        "receivedBytes": 47610,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 47610,
+        "receivedBytes": 47610,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "1c721bf6-6192-4f02-8241-ab0ab3c459c6",
+        "totalBytes": 47610,
+        "receivedBytes": 47610,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_variant_performance.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "url": "http://127.0.0.1:8504/media/8d29c4816edc85c30b83cfaa8cfc1a4b.csv",
+        "suggestedFilename": "smartbpm_repetition_groups.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "url": "http://127.0.0.1:8504/media/1c4dce3a5d25852279d88d33f658bf29.csv",
+        "suggestedFilename": "smartbpm_case_repetition_flags.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "6ba2d507-7d6d-4ae2-9071-0cdf9ac1046c",
+        "totalBytes": 486,
+        "receivedBytes": 486,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_repetition_groups.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 0,
+        "receivedBytes": 2171347,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 0,
+        "receivedBytes": 2171347,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 2171347,
+        "receivedBytes": 2171347,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 2171347,
+        "receivedBytes": 2171347,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 2171347,
+        "receivedBytes": 2171347,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "0bf5cce7-69ad-496d-972d-637de6e9aa56",
+        "totalBytes": 2171347,
+        "receivedBytes": 2171347,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_case_repetition_flags.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "url": "http://127.0.0.1:8504/media/18537cbdfbecccc6e6e43b804f610ca7.csv",
+        "suggestedFilename": "smartbpm_investigated_variants.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 0,
+        "receivedBytes": 47838,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 0,
+        "receivedBytes": 47838,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 47838,
+        "receivedBytes": 47838,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 47838,
+        "receivedBytes": 47838,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 47838,
+        "receivedBytes": 47838,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8742927d-911d-400c-8521-09f5e8f84abf",
+        "totalBytes": 47838,
+        "receivedBytes": 47838,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_investigated_variants.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "url": "http://127.0.0.1:8504/media/231c6480cdf8d1bc44a6c73b79aa4345.csv",
+        "suggestedFilename": "smartbpm_candidate_targets.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 0,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 0,
+        "receivedBytes": 1502,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 0,
+        "receivedBytes": 1502,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 1502,
+        "receivedBytes": 1502,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 1502,
+        "receivedBytes": 1502,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 1502,
+        "receivedBytes": 1502,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "32909b65-8134-4d09-83c7-8307893b566c",
+        "totalBytes": 1502,
+        "receivedBytes": 1502,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_candidate_targets.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadWillBegin",
+      "params": {
+        "frameId": "3E7B9AB18AD95C682AA4AE390CD77215",
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "url": "http://127.0.0.1:8504/media/2fae9be15ed1ae612fb869fc19857ffb.csv",
+        "suggestedFilename": "smartbpm_selected_cases.csv"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 0,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "inProgress"
+      }
+    },
+    {
+      "method": "Browser.downloadProgress",
+      "params": {
+        "guid": "8712b739-51cb-45f9-bb41-9f3e9e310c85",
+        "totalBytes": 399,
+        "receivedBytes": 399,
+        "state": "completed",
+        "filePath": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\outputs\\reports\\browser_checks\\uat\\downloads\\smartbpm_selected_cases.csv"
+      }
+    }
+  ],
+  "download_files": [
+    {
+      "name": "smartbpm_all_transitions.csv",
+      "bytes": 6688
+    },
+    {
+      "name": "smartbpm_candidate_targets.csv",
+      "bytes": 1502
+    },
+    {
+      "name": "smartbpm_case_repetition_flags.csv",
+      "bytes": 2171347
+    },
+    {
+      "name": "smartbpm_displayed_transitions.csv",
+      "bytes": 6688
+    },
+    {
+      "name": "smartbpm_investigated_variants.csv",
+      "bytes": 47838
+    },
+    {
+      "name": "smartbpm_repetition_groups.csv",
+      "bytes": 486
+    },
+    {
+      "name": "smartbpm_selected_cases.csv",
+      "bytes": 399
+    },
+    {
+      "name": "smartbpm_variant_performance.csv",
+      "bytes": 47610
+    }
+  ],
+  "download_content_checks": [
+    {
+      "file": "smartbpm_all_transitions.csv",
+      "rows": 39,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_candidate_targets.csv",
+      "rows": 3,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_case_repetition_flags.csv",
+      "rows": 10500,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_displayed_transitions.csv",
+      "rows": 39,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_investigated_variants.csv",
+      "rows": 99,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_repetition_groups.csv",
+      "rows": 4,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_selected_cases.csv",
+      "rows": 1,
+      "passed": true
+    },
+    {
+      "file": "smartbpm_variant_performance.csv",
+      "rows": 99,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,169 @@
+{
+  "column_mapping": {
+    "case": "case:concept:name",
+    "activity": "concept:name",
+    "timestamp": "time:timestamp",
+    "event_id": "id",
+    "resource": "org:resource"
+  },
+  "event_count": 56437,
+  "schema": {
+    "id": "str",
+    "org:resource": "str",
+    "concept:name": "str",
+    "time:timestamp": "datetime64[us, UTC]",
+    "org:role": "str",
+    "case:id": "str",
+    "case:concept:name": "str",
+    "case:BudgetNumber": "str",
+    "case:DeclarationNumber": "str",
+    "case:Amount": "float64"
+  },
+  "missing_values": {
+    "id": 0,
+    "org:resource": 0,
+    "concept:name": 0,
+    "time:timestamp": 0,
+    "org:role": 0,
+    "case:id": 0,
+    "case:concept:name": 0,
+    "case:BudgetNumber": 0,
+    "case:DeclarationNumber": 0,
+    "case:Amount": 0
+  },
+  "missing_required_columns": [],
+  "confirmed_defects": [],
+  "interpretation": "Repetitions, short/long cases and uncommon endpoints are observations, not automatic errors.",
+  "invalid_required_values": {
+    "case:concept:name": 0,
+    "concept:name": 0,
+    "time:timestamp": 0
+  },
+  "timestamps": {
+    "invalid_or_naive": 0,
+    "naive": 0,
+    "loaded_offsets": {
+      "0:00:00": 56437
+    },
+    "normalized_timezone": "UTC"
+  },
+  "invalid_attribute_types": {
+    "id": 0,
+    "org:resource": 0,
+    "concept:name": 0,
+    "org:role": 0,
+    "case:id": 0,
+    "case:concept:name": 0,
+    "case:BudgetNumber": 0,
+    "case:DeclarationNumber": 0,
+    "case:Amount": 0
+  },
+  "type_expectations": "Domestic Declarations: string attributes, finite numeric Amount, timezone-aware timestamps. No coercion of labels or amounts.",
+  "exact_duplicates": {
+    "definition": "All original flattened columns equal; no provenance columns included",
+    "rows_in_groups": 0,
+    "excess_rows": 0
+  },
+  "duplicate_event_ids": {
+    "rows_in_groups": 0,
+    "distinct_duplicated_ids": 0,
+    "excess_rows": 0,
+    "examples": []
+  },
+  "case_attribute_consistency": {
+    "case:id": {
+      "conflicting_cases": 0,
+      "example_case_ids": []
+    },
+    "case:BudgetNumber": {
+      "conflicting_cases": 0,
+      "example_case_ids": []
+    },
+    "case:DeclarationNumber": {
+      "conflicting_cases": 0,
+      "example_case_ids": []
+    },
+    "case:Amount": {
+      "conflicting_cases": 0,
+      "example_case_ids": []
+    }
+  },
+  "chronology": {
+    "backward_steps_in_source_order": 0,
+    "cases_with_backward_steps": 0,
+    "case_timestamp_tie_rows": 20,
+    "cases_with_timestamp_ties": 10,
+    "tie_policy": "Keep original XES event order for equal timestamps; true causal order is unknown."
+  },
+  "trace_lengths": {
+    "distribution": {
+      "count": 10500.0,
+      "mean": 5.374952380952381,
+      "std": 1.4864153718914082,
+      "min": 1.0,
+      "25%": 5.0,
+      "50%": 5.0,
+      "75%": 6.0,
+      "max": 24.0
+    },
+    "single_event_cases": 134,
+    "iqr_fences": [
+      3.5,
+      7.5
+    ],
+    "below_lower_fence": 365,
+    "above_upper_fence": 918,
+    "note": "IQR fences are descriptive flags, not exclusion rules."
+  },
+  "repetition": {
+    "cases_with_repeated_activities": 1019,
+    "excess_occurrences": 1759
+  },
+  "activity_frequency": {
+    "Declaration SUBMITTED by EMPLOYEE": 11531,
+    "Declaration FINAL_APPROVED by SUPERVISOR": 10131,
+    "Payment Handled": 10044,
+    "Request Payment": 10040,
+    "Declaration APPROVED by ADMINISTRATION": 8202,
+    "Declaration APPROVED by BUDGET OWNER": 2820,
+    "Declaration REJECTED by EMPLOYEE": 1365,
+    "Declaration REJECTED by ADMINISTRATION": 952,
+    "Declaration APPROVED by PRE_APPROVER": 685,
+    "Declaration REJECTED by SUPERVISOR": 293,
+    "Declaration SAVED by EMPLOYEE": 135,
+    "Declaration REJECTED by MISSING": 91,
+    "Declaration REJECTED by PRE_APPROVER": 86,
+    "Declaration REJECTED by BUDGET OWNER": 59,
+    "Declaration FOR_APPROVAL by SUPERVISOR": 1,
+    "Declaration FOR_APPROVAL by PRE_APPROVER": 1,
+    "Declaration FOR_APPROVAL by ADMINISTRATION": 1
+  },
+  "resource_frequency": {
+    "STAFF MEMBER": 36353,
+    "SYSTEM": 20084
+  },
+  "duplicate_interpretation": "Duplicates are retained and reported separately; repeated IDs or identical records require provenance review before any deletion.",
+  "source_sha256": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+  "xes_source_audit": {
+    "timestamp_offsets": {
+      "1:00:00": 23676,
+      "2:00:00": 32761
+    },
+    "naive_timestamps": 0,
+    "invalid_timestamps": 0,
+    "attribute_xml_types": {
+      "Amount|float": 10500,
+      "BudgetNumber|string": 10500,
+      "DeclarationNumber|string": 10500,
+      "concept:name|string": 66938,
+      "id|string": 66937,
+      "org:resource|string": 56437,
+      "org:role|string": 56437,
+      "time:timestamp|date": 56437
+    },
+    "note": "Different UTC offsets can reflect daylight saving; offsets alone do not identify a named timezone."
+  },
+  "trace_count": 10500,
+  "empty_trace_count": 0,
+  "duplicate_trace_case_names": 0
+}

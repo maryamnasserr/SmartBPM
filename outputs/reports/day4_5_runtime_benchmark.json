@@ -1,0 +1,52 @@
+{
+  "dfg_and_transition_performance": {
+    "seconds": [
+      0.4820772000002762,
+      0.41121450000173354,
+      0.38492220000080124
+    ],
+    "median_seconds": 0.41121450000173354
+  },
+  "interactive_process_map_20_edges": {
+    "seconds": [
+      0.9297575000000506,
+      0.13333410000086587,
+      0.11906459999954677
+    ],
+    "median_seconds": 0.13333410000086587
+  },
+  "initial_apptest_run": {
+    "seconds": [
+      8.167115800000829
+    ],
+    "median_seconds": 8.167115800000829
+  },
+  "unchanged_cached_apptest_rerun": {
+    "seconds": [
+      0.8876665000007051,
+      0.8774615000002086,
+      0.8266683000001649
+    ],
+    "median_seconds": 0.8774615000002086
+  },
+  "filter_interactions": {
+    "sequence": [
+      "first 1\u201320 day selection",
+      "return to all",
+      "repeat 1\u201320 day selection"
+    ],
+    "seconds": [
+      2.7669430000005377,
+      0.8031843999997363,
+      1.2614727999989555
+    ]
+  },
+  "real_dataset": {
+    "events": 56437,
+    "cases": 10500,
+    "activities": 17,
+    "distinct_transitions": 39,
+    "transition_occurrences": 45937
+  },
+  "note": "Three perf_counter samples except initial app run. Compute measurements exclude Python startup/imports. AppTest reruns include Streamlit execution but exclude browser/network rendering. Timings are local observations, not production guarantees; concurrent verification can affect them."
+}

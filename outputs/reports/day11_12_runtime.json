@@ -1,0 +1,32 @@
+{
+  "elapsed_seconds": 32.216954700001224,
+  "protected_hashes_unchanged": true,
+  "protected_sha256": {
+    "data\\raw\\DomesticDeclarations.xes": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+    "data\\processed\\domestic_declarations_cleaned.parquet": "f21c1b67840873a2714e140d60634635f2e081d4f6943fe1c06e43dc013d4a8f",
+    "data\\processed\\domestic_declarations_ml_audit.parquet": "3f43d8628b1aa026582ac8f5874de1f8a042132a36f334da72aba56f4e263758",
+    "data\\processed\\domestic_declarations_ml_ready.parquet": "7d6839bacf3376569eb3e94ffc5979d33d4c350875f80887dd76f0fd3437e716",
+    "outputs\\models\\day9_10\\elapsed_explanation.csv": "7886ea3ce6315a0397cfc1e1d6a6e8851bd119e48a110ebc02cfe49fe48e9151",
+    "outputs\\models\\day9_10\\logistic_explanation.csv": "f3cbd2d752d6154ec7040c5761309b9e83c9e5f68d650f9996a3ee8ed7bf4ead",
+    "outputs\\models\\day9_10\\manifest.json": "600e1b1c396dcd6b5487501f8140b10725fd662734bbb9fb32ed17ebac6ab916",
+    "outputs\\models\\day9_10\\models.joblib": "adef281fcf9da32d63b0bddbe745fe31ca687e614546c39b67c57e381ae32769",
+    "outputs\\models\\day9_10\\prevalence_explanation.csv": "b7124381e8f458a22738e99be35b7cb73edcd6e7f455371f1d2e7dde51b89acf",
+    "outputs\\models\\day9_10\\tree_explanation.csv": "f30b1ac3502e815616c303031a065dce2b9eaaa81069fc91fc79180bb89ab7d2",
+    "outputs\\models\\day9_10\\validation_predictions.parquet": "356936e7d0bd9d8a6cbf2ac4bb6b5689abb54bbd9d550d230cf61c192bbca0d9",
+    "outputs\\models\\day9_10\\validation_report.json": "47b546f8e9388e07b83e860ff83678437a59a4871684c547011397f42a9ca3aa"
+  },
+  "reload_predictions_exact": true,
+  "test_predicted_or_evaluated": false,
+  "global_same_seed_exact": true,
+  "local_max_reconstruction_error": 0.0,
+  "artifact_bytes": {
+    "feature_schema.json": 703,
+    "manifest.json": 203989,
+    "models.joblib": 175809,
+    "permutation_importance.csv": 1719,
+    "selected_model.joblib": 150257,
+    "training_background.parquet": 4904,
+    "validation_predictions.parquet": 73051,
+    "validation_report.json": 387412
+  }
+}

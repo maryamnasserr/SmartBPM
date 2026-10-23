@@ -1,0 +1,57 @@
+{
+  "first_predictive_navigation_seconds": 15.040790899998683,
+  "overview_metrics": [
+    "Training cases\n\n5,783",
+    "Validation cases\n\n1,752",
+    "Preferred model\n\nLogistic",
+    "Validation average precision\n\n0.465",
+    "Predicted long-running risk25.1%",
+    "Predicted classLong-running",
+    "Actual historical outcomeNot long-running"
+  ],
+  "comparison_metric_control": true,
+  "evaluation_charts": [
+    "<b><b>Confusion matrix \u00b7 probability \u2265 0.20</b></b>",
+    "<b><b>Validation class distribution</b></b>",
+    "<b><b>ROC curve \u00b7 AUC 0.673</b></b>",
+    "<b><b>Precision\u2013recall \u00b7 average precision 0.465</b></b>",
+    "<b><b>Reliability curve \u00b7 Brier 0.1893</b></b>"
+  ],
+  "confusion_matches_verified_metrics": true,
+  "example_case": "declaration 110775",
+  "example_probability": 0.2514116137835614,
+  "case_selection": "declaration 142881",
+  "all_four_models_selected": true,
+  "decision_threshold_control": true,
+  "mobile_widths": {
+    "Model comparison": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Validation evaluation": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Case prediction explorer": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Research interpretation": {
+      "viewport": 390,
+      "document": 390
+    }
+  },
+  "existing_pages": {
+    "Overview": true,
+    "Activities & resources": true,
+    "Variants & repetition": true,
+    "Case boundaries": true,
+    "Case explorer": true,
+    "Process Mining": true,
+    "Performance Investigation": true,
+    "ML Preparation": true
+  },
+  "exceptions": 0,
+  "console_errors": [],
+  "passed": true
+}

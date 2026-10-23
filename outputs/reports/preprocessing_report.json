@@ -1,0 +1,46 @@
+{
+  "column_mapping": {
+    "case": "case:concept:name",
+    "activity": "concept:name",
+    "timestamp": "time:timestamp",
+    "event_id": "id",
+    "resource": "org:resource"
+  },
+  "input_events": 56437,
+  "output_events": 56437,
+  "input_cases": 10500,
+  "output_cases": 10500,
+  "records_removed": 0,
+  "attributes_preserved": [
+    "id",
+    "org:resource",
+    "concept:name",
+    "time:timestamp",
+    "org:role",
+    "case:id",
+    "case:concept:name",
+    "case:BudgetNumber",
+    "case:DeclarationNumber",
+    "case:Amount"
+  ],
+  "rows_in_different_global_positions": 56437,
+  "cleaning": "No deletion, deduplication, imputation, label trimming or amount conversion applied.",
+  "transformations": [
+    "Validate explicit required mapping and dataset attribute types.",
+    "Normalize aware timestamps to UTC; reject naive/invalid timestamps.",
+    "Add _source_order as zero-based original flattened XES row number.",
+    "Sort cases lexicographically, then timestamps ascending, then original source order.",
+    "Preserve every original event and trace attribute; save Parquet without DataFrame index."
+  ],
+  "limitations": [
+    "Timestamp ties retain source order without asserting causal precedence.",
+    "No start times, processing durations, resource capacities or SLA thresholds inferred."
+  ],
+  "source_sha256": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+  "output_sha256": "f21c1b67840873a2714e140d60634635f2e081d4f6943fe1c06e43dc013d4a8f",
+  "output_file": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\data\\processed\\domestic_declarations_cleaned.parquet",
+  "parquet_roundtrip_verified": true,
+  "cleaning_required": false,
+  "ordering_note": "Chronological analytical ordering is a representation change; original order remains recoverable from _source_order.",
+  "source_unchanged_verified": true
+}

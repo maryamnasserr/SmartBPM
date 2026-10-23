@@ -1,0 +1,61 @@
+{
+  "first_navigation_seconds": 6.582385100002284,
+  "overview_metrics": [
+    "Training cases\n\n5,783",
+    "Validation cases\n\n1,752",
+    "Preferred model\n\nForest",
+    "Validation average precision\n\n0.484"
+  ],
+  "all_six_comparison_probabilities_verified": true,
+  "evaluation_charts": [
+    "<b><b>Confusion matrix \u00b7 probability \u2265 0.22</b></b>",
+    "<b><b>Validation class distribution</b></b>",
+    "<b><b>ROC curve \u00b7 AUC 0.685</b></b>",
+    "<b><b>Precision\u2013recall \u00b7 average precision 0.484</b></b>",
+    "<b><b>Reliability curve \u00b7 Brier 0.1927</b></b>"
+  ],
+  "all_six_models_selected": true,
+  "threshold_explorer": true,
+  "local_case_id": "declaration 142881",
+  "local_probability": 0.1489302524011334,
+  "evidence_download_verified": true,
+  "mobile_widths": {
+    "Model comparison": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Validation evaluation": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Case prediction explorer": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Decision threshold explorer": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Explainable AI": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Research interpretation": {
+      "viewport": 390,
+      "document": 390
+    }
+  },
+  "existing_pages": {
+    "Overview": true,
+    "Activities & resources": true,
+    "Variants & repetition": true,
+    "Case boundaries": true,
+    "Case explorer": true,
+    "Process Mining": true,
+    "Performance Investigation": true,
+    "ML Preparation": true
+  },
+  "exceptions": 0,
+  "console_errors": [],
+  "passed": true
+}

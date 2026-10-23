@@ -1,0 +1,334 @@
+{
+  "case_id": "declaration 110775",
+  "snapshot": {
+    "first_activity": "Declaration SUBMITTED by EMPLOYEE",
+    "second_activity": "Declaration APPROVED by ADMINISTRATION",
+    "prefix_elapsed_hours": 0.0008333333,
+    "utc_month": 7.0,
+    "utc_weekday": 4.0,
+    "utc_hour": 8.0,
+    "case:concept:name": "declaration 110775",
+    "first_timestamp": "2018-07-13T08:08:03.000Z",
+    "second_timestamp": "2018-07-13T08:08:06.000Z",
+    "prediction_timestamp": "2018-07-13T08:08:06.000Z",
+    "target_long_observed": 0,
+    "split": "validation"
+  },
+  "selected_model": "logistic",
+  "explanation": {
+    "kind": "logistic",
+    "probability": 0.2514116137835614,
+    "intercept": -0.9167973036526247,
+    "log_odds": -1.0910977898224234,
+    "reconstructed_probability": 0.2514116137835614,
+    "terms": [
+      {
+        "feature": "elapsed__prefix_elapsed_hours",
+        "transformed_value": -0.2882913008479096,
+        "coefficient": 0.3146310180848642,
+        "log_odds_contribution": -0.09070538549078767
+      },
+      {
+        "feature": "category__first_activity_Declaration SUBMITTED by EMPLOYEE",
+        "transformed_value": 1.0,
+        "coefficient": 7.892979375494278e-07,
+        "log_odds_contribution": 7.892979375494278e-07
+      },
+      {
+        "feature": "category__second_activity_Declaration APPROVED by ADMINISTRATION",
+        "transformed_value": 1.0,
+        "coefficient": -0.39854634243299397,
+        "log_odds_contribution": -0.39854634243299397
+      },
+      {
+        "feature": "category__second_activity_Declaration APPROVED by PRE_APPROVER",
+        "transformed_value": 0.0,
+        "coefficient": -0.1290922862569053,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration FINAL_APPROVED by SUPERVISOR",
+        "transformed_value": 0.0,
+        "coefficient": -0.5166060122931344,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration FOR_APPROVAL by PRE_APPROVER",
+        "transformed_value": 0.0,
+        "coefficient": -0.02565740410122306,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration FOR_APPROVAL by SUPERVISOR",
+        "transformed_value": 0.0,
+        "coefficient": -0.031151326662959913,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration REJECTED by ADMINISTRATION",
+        "transformed_value": 0.0,
+        "coefficient": 0.30397646688150615,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration REJECTED by PRE_APPROVER",
+        "transformed_value": 0.0,
+        "coefficient": 0.2581003037981162,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__second_activity_Declaration REJECTED by SUPERVISOR",
+        "transformed_value": 0.0,
+        "coefficient": 0.5389773903655342,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_1",
+        "transformed_value": 0.0,
+        "coefficient": 0.01054277882878041,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_10",
+        "transformed_value": 0.0,
+        "coefficient": -0.18778688755716424,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_month_11",
+        "transformed_value": 0.0,
+        "coefficient": -0.4791517266868543,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_month_12",
+        "transformed_value": 0.0,
+        "coefficient": 0.35887738639425826,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_2",
+        "transformed_value": 0.0,
+        "coefficient": 0.4145472009719011,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_3",
+        "transformed_value": 0.0,
+        "coefficient": -0.09307049543132787,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_month_4",
+        "transformed_value": 0.0,
+        "coefficient": 0.07350539579575048,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_5",
+        "transformed_value": 0.0,
+        "coefficient": 0.23243849593014282,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_6",
+        "transformed_value": 0.0,
+        "coefficient": -0.36716297383602853,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_month_7",
+        "transformed_value": 1.0,
+        "coefficient": 0.3367846317949941,
+        "log_odds_contribution": 0.3367846317949941
+      },
+      {
+        "feature": "category__utc_month_8",
+        "transformed_value": 0.0,
+        "coefficient": 0.28236762013255734,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_month_9",
+        "transformed_value": 0.0,
+        "coefficient": -0.5818906370390675,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_weekday_0",
+        "transformed_value": 0.0,
+        "coefficient": -0.5086230524866269,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_weekday_1",
+        "transformed_value": 0.0,
+        "coefficient": -0.20204481653642503,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_weekday_2",
+        "transformed_value": 0.0,
+        "coefficient": 0.14955953202181543,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_weekday_3",
+        "transformed_value": 0.0,
+        "coefficient": 0.30493900407117713,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_weekday_4",
+        "transformed_value": 1.0,
+        "coefficient": 0.15760258396467544,
+        "log_odds_contribution": 0.15760258396467544
+      },
+      {
+        "feature": "category__utc_weekday_5",
+        "transformed_value": 0.0,
+        "coefficient": 0.13869970391645,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_weekday_6",
+        "transformed_value": 0.0,
+        "coefficient": -0.040132165653127216,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_0",
+        "transformed_value": 0.0,
+        "coefficient": 0.03608511448870453,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_1",
+        "transformed_value": 0.0,
+        "coefficient": -0.02089902155438751,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_10",
+        "transformed_value": 0.0,
+        "coefficient": -0.02357423949601147,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_11",
+        "transformed_value": 0.0,
+        "coefficient": -0.015966302134227322,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_12",
+        "transformed_value": 0.0,
+        "coefficient": -0.04182776442247867,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_13",
+        "transformed_value": 0.0,
+        "coefficient": 0.022642409280322875,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_14",
+        "transformed_value": 0.0,
+        "coefficient": 0.08217262984144279,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_15",
+        "transformed_value": 0.0,
+        "coefficient": -0.057288565236111866,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_16",
+        "transformed_value": 0.0,
+        "coefficient": 0.2125510508727109,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_17",
+        "transformed_value": 0.0,
+        "coefficient": 0.16571884198866618,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_18",
+        "transformed_value": 0.0,
+        "coefficient": -0.3452686598537476,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_19",
+        "transformed_value": 0.0,
+        "coefficient": -0.013484010468033962,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_20",
+        "transformed_value": 0.0,
+        "coefficient": 0.013030155088047392,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_21",
+        "transformed_value": 0.0,
+        "coefficient": -0.3238183786110682,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_22",
+        "transformed_value": 0.0,
+        "coefficient": -0.054400222373767855,
+        "log_odds_contribution": -0.0
+      },
+      {
+        "feature": "category__utc_hour_23",
+        "transformed_value": 0.0,
+        "coefficient": 0.06245765439933063,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_4",
+        "transformed_value": 0.0,
+        "coefficient": 0.05394389693299647,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_5",
+        "transformed_value": 0.0,
+        "coefficient": 0.08166064701608847,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_6",
+        "transformed_value": 0.0,
+        "coefficient": 0.17884750772690164,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_7",
+        "transformed_value": 0.0,
+        "coefficient": 0.19511665114810553,
+        "log_odds_contribution": 0.0
+      },
+      {
+        "feature": "category__utc_hour_8",
+        "transformed_value": 1.0,
+        "coefficient": -0.17943676330362432,
+        "log_odds_contribution": -0.17943676330362432
+      },
+      {
+        "feature": "category__utc_hour_9",
+        "transformed_value": 0.0,
+        "coefficient": -0.02826184203191779,
+        "log_odds_contribution": -0.0
+      }
+    ],
+    "note": "Intercept plus signed terms equals model log-odds; sigmoid gives risk. Terms are associations relative to the encoded origin, not probability-point changes or causal effects."
+  }
+}

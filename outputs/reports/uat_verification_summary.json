@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-20",
+  "scope": "Days 1-8 application QA only; no Day 9 or classifier training",
+  "baseline_tests": {
+    "passed": 114,
+    "warnings": 1,
+    "seconds": 173.78
+  },
+  "final_tests": {
+    "passed": 116,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 164.16
+  },
+  "pip_check": "No broken requirements found",
+  "independent_data_audit_passed": true,
+  "main_browser_passed": true,
+  "supplemental_browser_passed": true,
+  "browser_pages": [
+    "Overview",
+    "Activities & resources",
+    "Variants & repetition",
+    "Case boundaries",
+    "Case explorer",
+    "Process Mining",
+    "Performance Investigation",
+    "ML Preparation"
+  ],
+  "main_browser_console_errors": 0,
+  "download_content_checks": 8,
+  "full_summary_download": {
+    "rows": 10500,
+    "events": 56437
+  },
+  "source_sha256_unchanged": true,
+  "qa_profile_removed": true,
+  "browser_evidence_bytes": 6500698,
+  "free_bytes_after_cleanup": 4290072576,
+  "server_health": "ok",
+  "app_url": "http://localhost:8504",
+  "ready_for_day9_with_documented_research_limits": true
+}

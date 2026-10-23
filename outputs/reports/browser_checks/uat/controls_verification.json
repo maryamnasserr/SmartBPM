@@ -1,0 +1,16 @@
+{
+  "map_empty_visibility_keeps_data": true,
+  "map_edge_limit": true,
+  "map_activity_focus": true,
+  "detailed_bypasses_display_filters": true,
+  "edge_frequency_labels": true,
+  "variant_comparison_empty_state": true,
+  "variant_comparison_reselect": true,
+  "mobile_sidebar_navigation": true,
+  "full_cohort_download_readback": {
+    "rows": 10500,
+    "events": 56437
+  },
+  "exceptions": 0,
+  "passed": true
+}

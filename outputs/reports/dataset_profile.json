@@ -1,0 +1,153 @@
+{
+  "source": "C:\\Users\\Maryam Nasser\\Desktop\\SmartBPM\\data\\raw\\DomesticDeclarations.xes",
+  "source_sha256": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+  "source_bytes": 20497405,
+  "event_count": 56437,
+  "case_count": 10500,
+  "trace_count": 10500,
+  "empty_trace_count": 0,
+  "activity_count": 17,
+  "activities": {
+    "Declaration SUBMITTED by EMPLOYEE": 11531,
+    "Declaration FINAL_APPROVED by SUPERVISOR": 10131,
+    "Payment Handled": 10044,
+    "Request Payment": 10040,
+    "Declaration APPROVED by ADMINISTRATION": 8202,
+    "Declaration APPROVED by BUDGET OWNER": 2820,
+    "Declaration REJECTED by EMPLOYEE": 1365,
+    "Declaration REJECTED by ADMINISTRATION": 952,
+    "Declaration APPROVED by PRE_APPROVER": 685,
+    "Declaration REJECTED by SUPERVISOR": 293,
+    "Declaration SAVED by EMPLOYEE": 135,
+    "Declaration REJECTED by MISSING": 91,
+    "Declaration REJECTED by PRE_APPROVER": 86,
+    "Declaration REJECTED by BUDGET OWNER": 59,
+    "Declaration FOR_APPROVAL by SUPERVISOR": 1,
+    "Declaration FOR_APPROVAL by PRE_APPROVER": 1,
+    "Declaration FOR_APPROVAL by ADMINISTRATION": 1
+  },
+  "timestamp_range_utc": {
+    "min": "2017-01-09T08:49:50+00:00",
+    "max": "2019-06-17T15:30:58+00:00"
+  },
+  "schema": {
+    "id": "str",
+    "org:resource": "str",
+    "concept:name": "str",
+    "time:timestamp": "datetime64[us, UTC]",
+    "org:role": "str",
+    "case:id": "str",
+    "case:concept:name": "str",
+    "case:BudgetNumber": "str",
+    "case:DeclarationNumber": "str",
+    "case:Amount": "float64"
+  },
+  "event_attributes": [
+    "concept:name",
+    "id",
+    "org:resource",
+    "org:role",
+    "time:timestamp"
+  ],
+  "trace_attributes": [
+    "Amount",
+    "BudgetNumber",
+    "DeclarationNumber",
+    "concept:name",
+    "id"
+  ],
+  "missing_values": {
+    "id": 0,
+    "org:resource": 0,
+    "concept:name": 0,
+    "time:timestamp": 0,
+    "org:role": 0,
+    "case:id": 0,
+    "case:concept:name": 0,
+    "case:BudgetNumber": 0,
+    "case:DeclarationNumber": 0,
+    "case:Amount": 0
+  },
+  "missing_event_attributes": {
+    "concept:name": 0,
+    "id": 0,
+    "org:resource": 0,
+    "org:role": 0,
+    "time:timestamp": 0
+  },
+  "missing_trace_attributes": {
+    "Amount": 0,
+    "BudgetNumber": 0,
+    "DeclarationNumber": 0,
+    "concept:name": 0,
+    "id": 0
+  },
+  "sample": [
+    {
+      "id": "st_step 86794_0",
+      "org:resource": "STAFF MEMBER",
+      "concept:name": "Declaration SUBMITTED by EMPLOYEE",
+      "time:timestamp": "2017-01-09T08:49:50.000Z",
+      "org:role": "EMPLOYEE",
+      "case:id": "declaration 86791",
+      "case:concept:name": "declaration 86791",
+      "case:BudgetNumber": "budget 86566",
+      "case:DeclarationNumber": "declaration number 86792",
+      "case:Amount": 26.8512045086
+    },
+    {
+      "id": "st_step 86793_0",
+      "org:resource": "STAFF MEMBER",
+      "concept:name": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "time:timestamp": "2017-01-09T10:27:48.000Z",
+      "org:role": "SUPERVISOR",
+      "case:id": "declaration 86791",
+      "case:concept:name": "declaration 86791",
+      "case:BudgetNumber": "budget 86566",
+      "case:DeclarationNumber": "declaration number 86792",
+      "case:Amount": 26.8512045086
+    },
+    {
+      "id": "dd_declaration 86791_19",
+      "org:resource": "SYSTEM",
+      "concept:name": "Request Payment",
+      "time:timestamp": "2017-01-10T08:34:44.000Z",
+      "org:role": "UNDEFINED",
+      "case:id": "declaration 86791",
+      "case:concept:name": "declaration 86791",
+      "case:BudgetNumber": "budget 86566",
+      "case:DeclarationNumber": "declaration number 86792",
+      "case:Amount": 26.8512045086
+    },
+    {
+      "id": "dd_declaration 86791_20",
+      "org:resource": "SYSTEM",
+      "concept:name": "Payment Handled",
+      "time:timestamp": "2017-01-12T16:31:22.000Z",
+      "org:role": "UNDEFINED",
+      "case:id": "declaration 86791",
+      "case:concept:name": "declaration 86791",
+      "case:BudgetNumber": "budget 86566",
+      "case:DeclarationNumber": "declaration number 86792",
+      "case:Amount": 26.8512045086
+    },
+    {
+      "id": "st_step 86798_0",
+      "org:resource": "STAFF MEMBER",
+      "concept:name": "Declaration SUBMITTED by EMPLOYEE",
+      "time:timestamp": "2017-01-09T09:26:14.000Z",
+      "org:role": "EMPLOYEE",
+      "case:id": "declaration 86795",
+      "case:concept:name": "declaration 86795",
+      "case:BudgetNumber": "budget 86566",
+      "case:DeclarationNumber": "declaration number 86796",
+      "case:Amount": 182.4641720425
+    }
+  ],
+  "preprocessing": [
+    "No records excluded, imputed, deduplicated or sorted.",
+    "PM4Py flattens trace attributes with case: prefix.",
+    "Timestamp summary expressed in UTC; source file unchanged.",
+    "No processing durations, capacities or SLA thresholds inferred."
+  ]
+}

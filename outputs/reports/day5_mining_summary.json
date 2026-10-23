@@ -1,0 +1,21 @@
+{
+  "events": 56437,
+  "cases": 10500,
+  "activities": 17,
+  "distinct_transitions": 39,
+  "transition_occurrences": 45937,
+  "starts": {
+    "Declaration SUBMITTED by EMPLOYEE": 10365,
+    "Declaration SAVED by EMPLOYEE": 135
+  },
+  "ends": {
+    "Payment Handled": 10043,
+    "Declaration REJECTED by EMPLOYEE": 284,
+    "Declaration SAVED by EMPLOYEE": 134,
+    "Declaration REJECTED by MISSING": 30,
+    "Declaration REJECTED by ADMINISTRATION": 5,
+    "Declaration REJECTED by SUPERVISOR": 4
+  },
+  "method": "PM4Py frequency directly-follows pandas backend, on case/timestamp/source-order sorted events",
+  "interpretation": "Edges connect consecutive recorded events within a case. Gaps are elapsed time, not measured service or queue waiting time. No gateways or concurrency semantics inferred."
+}

@@ -1,0 +1,281 @@
+{
+  "first_graph_ready_seconds": 2.386061500001233,
+  "main_nodes": [
+    {
+      "id": "A15",
+      "label": "Submit declaration\nEmployee",
+      "raw": "Declaration SUBMITTED by EMPLOYEE"
+    },
+    {
+      "id": "A01",
+      "label": "Approval\nAdministration",
+      "raw": "Declaration APPROVED by ADMINISTRATION"
+    },
+    {
+      "id": "A02",
+      "label": "Approval\nBudget Owner",
+      "raw": "Declaration APPROVED by BUDGET OWNER"
+    },
+    {
+      "id": "A04",
+      "label": "Final approval\nSupervisor",
+      "raw": "Declaration FINAL_APPROVED by SUPERVISOR"
+    },
+    {
+      "id": "A17",
+      "label": "Request Payment",
+      "raw": "Request Payment"
+    },
+    {
+      "id": "A16",
+      "label": "Payment Handled",
+      "raw": "Payment Handled"
+    }
+  ],
+  "main_edges": 7,
+  "metrics": [
+    "10,500",
+    "56,437",
+    "17",
+    "7.33",
+    "45,937",
+    "39",
+    "99",
+    "11,531",
+    "10,365",
+    "1,019"
+  ],
+  "wheel_zoom_verified": true,
+  "drag_pan_verified": true,
+  "all_edges": 39,
+  "all_nodes": 17,
+  "full_graph_node_overlaps": [],
+  "all_link_counts": [
+    {
+      "source": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "target": "Request Payment",
+      "frequency": 10038
+    },
+    {
+      "source": "Request Payment",
+      "target": "Payment Handled",
+      "frequency": 10037
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration APPROVED by ADMINISTRATION",
+      "frequency": 8202
+    },
+    {
+      "source": "Declaration APPROVED by ADMINISTRATION",
+      "target": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "frequency": 5133
+    },
+    {
+      "source": "Declaration APPROVED by ADMINISTRATION",
+      "target": "Declaration APPROVED by BUDGET OWNER",
+      "frequency": 2820
+    },
+    {
+      "source": "Declaration APPROVED by BUDGET OWNER",
+      "target": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "frequency": 2788
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "frequency": 1536
+    },
+    {
+      "source": "Declaration REJECTED by EMPLOYEE",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 1081
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration REJECTED by ADMINISTRATION",
+      "frequency": 952
+    },
+    {
+      "source": "Declaration REJECTED by ADMINISTRATION",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 928
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration APPROVED by PRE_APPROVER",
+      "frequency": 685
+    },
+    {
+      "source": "Declaration APPROVED by PRE_APPROVER",
+      "target": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "frequency": 674
+    },
+    {
+      "source": "Declaration REJECTED by SUPERVISOR",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 286
+    },
+    {
+      "source": "Declaration APPROVED by ADMINISTRATION",
+      "target": "Declaration REJECTED by SUPERVISOR",
+      "frequency": 190
+    },
+    {
+      "source": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "target": "Declaration REJECTED by MISSING",
+      "frequency": 86
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration REJECTED by PRE_APPROVER",
+      "frequency": 86
+    },
+    {
+      "source": "Declaration REJECTED by PRE_APPROVER",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 85
+    },
+    {
+      "source": "Declaration REJECTED by MISSING",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 61
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration REJECTED by SUPERVISOR",
+      "frequency": 60
+    },
+    {
+      "source": "Declaration APPROVED by ADMINISTRATION",
+      "target": "Declaration REJECTED by BUDGET OWNER",
+      "frequency": 59
+    },
+    {
+      "source": "Declaration REJECTED by BUDGET OWNER",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 58
+    },
+    {
+      "source": "Declaration APPROVED by BUDGET OWNER",
+      "target": "Declaration REJECTED by SUPERVISOR",
+      "frequency": 32
+    },
+    {
+      "source": "Declaration REJECTED by ADMINISTRATION",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 19
+    },
+    {
+      "source": "Declaration APPROVED by PRE_APPROVER",
+      "target": "Declaration REJECTED by SUPERVISOR",
+      "frequency": 11
+    },
+    {
+      "source": "Declaration FINAL_APPROVED by SUPERVISOR",
+      "target": "Payment Handled",
+      "frequency": 7
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 7
+    },
+    {
+      "source": "Request Payment",
+      "target": "Declaration REJECTED by MISSING",
+      "frequency": 3
+    },
+    {
+      "source": "Declaration REJECTED by SUPERVISOR",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 2
+    },
+    {
+      "source": "Declaration FOR_APPROVAL by ADMINISTRATION",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration FOR_APPROVAL by PRE_APPROVER",
+      "target": "Declaration REJECTED by MISSING",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration FOR_APPROVAL by SUPERVISOR",
+      "target": "Declaration REJECTED by MISSING",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration REJECTED by BUDGET OWNER",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration REJECTED by PRE_APPROVER",
+      "target": "Declaration SUBMITTED by EMPLOYEE",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration REJECTED by SUPERVISOR",
+      "target": "Request Payment",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration SAVED by EMPLOYEE",
+      "target": "Request Payment",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration FOR_APPROVAL by ADMINISTRATION",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration FOR_APPROVAL by PRE_APPROVER",
+      "frequency": 1
+    },
+    {
+      "source": "Declaration SUBMITTED by EMPLOYEE",
+      "target": "Declaration FOR_APPROVAL by SUPERVISOR",
+      "frequency": 1
+    },
+    {
+      "source": "Payment Handled",
+      "target": "Declaration REJECTED by EMPLOYEE",
+      "frequency": 1
+    }
+  ],
+  "all_frequencies_match_validated_table": true,
+  "saved_activity_occurrences": 135,
+  "saved_single_case_explanation_visible": true,
+  "inspected_isolate_visible": true,
+  "exceptions": 0,
+  "mobile_width": {
+    "viewport": 390,
+    "document": 390
+  },
+  "performance_metrics": [
+    "Selected cases\n\n10,500",
+    "Selected events\n\n56,437",
+    "Selected activities\n\n17",
+    "Median elapsed days\n\n7.33",
+    "Mean observed days\n\n11.53",
+    "Cases repeating activities\n\n9.7%",
+    "Observed variants\n\n99",
+    "Activity occurrences\n\n135",
+    "Cases containing activity\n\n135",
+    "Cases repeating activity\n\n0"
+  ],
+  "research_definition_visible": true,
+  "browser_filter_changed_count": true,
+  "browser_reset_restored_count": true,
+  "browser_empty_state_verified": true,
+  "empty_state_exceptions": 0,
+  "performance_mobile_width": {
+    "viewport": 390,
+    "document": 390
+  },
+  "performance_exceptions": 0
+}

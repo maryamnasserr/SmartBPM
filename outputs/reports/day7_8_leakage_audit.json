@@ -1,0 +1,83 @@
+{
+  "checks_passed": true,
+  "predictor_allowlist": [
+    "first_activity",
+    "second_activity",
+    "prefix_elapsed_hours",
+    "utc_month",
+    "utc_weekday",
+    "utc_hour"
+  ],
+  "forbidden_model_inputs": [
+    "case:concept:name",
+    "first_timestamp",
+    "second_timestamp",
+    "prediction_timestamp",
+    "target_long_observed",
+    "split",
+    "elapsed_days",
+    "end_timestamp",
+    "end_activity",
+    "event_count",
+    "eligibility",
+    "already_above_threshold",
+    "case attributes",
+    "future events"
+  ],
+  "threshold_training_cases": 5951,
+  "label_availability": "Observed endpoints precede next cutoff; actual completion/censoring unknown",
+  "resource_role_policy": "Sensitivity only: ingestion-time availability unverified",
+  "test_policy": "Descriptive preparation audit only; no test-driven feature/model selection",
+  "missing_values_by_partition": {
+    "test": {
+      "first_activity": 0,
+      "second_activity": 0,
+      "prefix_elapsed_hours": 0,
+      "utc_month": 0,
+      "utc_weekday": 0,
+      "utc_hour": 0,
+      "case:concept:name": 0,
+      "first_timestamp": 0,
+      "second_timestamp": 0,
+      "prediction_timestamp": 0,
+      "target_long_observed": 0,
+      "split": 0
+    },
+    "train": {
+      "first_activity": 0,
+      "second_activity": 0,
+      "prefix_elapsed_hours": 0,
+      "utc_month": 0,
+      "utc_weekday": 0,
+      "utc_hour": 0,
+      "case:concept:name": 0,
+      "first_timestamp": 0,
+      "second_timestamp": 0,
+      "prediction_timestamp": 0,
+      "target_long_observed": 0,
+      "split": 0
+    },
+    "validation": {
+      "first_activity": 0,
+      "second_activity": 0,
+      "prefix_elapsed_hours": 0,
+      "utc_month": 0,
+      "utc_weekday": 0,
+      "utc_hour": 0,
+      "case:concept:name": 0,
+      "first_timestamp": 0,
+      "second_timestamp": 0,
+      "prediction_timestamp": 0,
+      "target_long_observed": 0,
+      "split": 0
+    }
+  },
+  "event_attribute_missingness": {
+    "event1_org:resource": 0,
+    "event1_org:role": 0,
+    "event2_org:resource": 134,
+    "event2_org:role": 134
+  },
+  "preprocessing_fit_cases": 5783,
+  "no_model_trained": true
+}

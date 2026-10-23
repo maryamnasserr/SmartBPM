@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "method": "Independent grouped precision/recall increments, Mann-Whitney average ranks, count confusion metrics and squared probability errors",
+  "model_metrics": {
+    "prevalence": {
+      "accuracy": 0.2831050228310502,
+      "precision": 0.2831050228310502,
+      "recall": 1.0,
+      "f1": 0.44128113879003555,
+      "roc_auc": 0.5,
+      "average_precision": 0.2831050228310502,
+      "brier_score": 0.2059650685593505,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          0,
+          1256
+        ],
+        [
+          0,
+          496
+        ]
+      ]
+    },
+    "elapsed": {
+      "accuracy": 0.2831050228310502,
+      "precision": 0.2831050228310502,
+      "recall": 1.0,
+      "f1": 0.44128113879003555,
+      "roc_auc": 0.5540526440825971,
+      "average_precision": 0.3776944782541735,
+      "brier_score": 0.20070876247938527,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          0,
+          1256
+        ],
+        [
+          0,
+          496
+        ]
+      ]
+    },
+    "logistic": {
+      "accuracy": 0.5947488584474886,
+      "precision": 0.3797752808988764,
+      "recall": 0.6814516129032258,
+      "f1": 0.4877344877344878,
+      "roc_auc": 0.6728437371584138,
+      "average_precision": 0.4651318318801679,
+      "brier_score": 0.18933478892781347,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          704,
+          552
+        ],
+        [
+          158,
+          338
+        ]
+      ]
+    },
+    "tree": {
+      "accuracy": 0.526255707762557,
+      "precision": 0.3424528301886792,
+      "recall": 0.7318548387096774,
+      "f1": 0.46658097686375316,
+      "roc_auc": 0.6057472519005548,
+      "average_precision": 0.3565877642897123,
+      "brier_score": 0.19499302015453537,
+      "class_prevalence": 0.2831050228310502,
+      "confusion_matrix": [
+        [
+          559,
+          697
+        ],
+        [
+          133,
+          363
+        ]
+      ]
+    }
+  },
+  "validation_cases": 1752,
+  "training_preprocessing_verified": true,
+  "partition_identity_verified": true,
+  "test_evaluated": false,
+  "test_predictions_generated": false,
+  "source_dataset_sha256": "7d6839bacf3376569eb3e94ffc5979d33d4c350875f80887dd76f0fd3437e716"
+}

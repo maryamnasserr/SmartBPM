@@ -1,0 +1,23 @@
+{
+  "preparation_seconds": 1.4073127000010572,
+  "total_seconds": 2.4880397000015364,
+  "free_bytes_before": 1050021888,
+  "free_bytes_after": 1050021888,
+  "output_bytes": {
+    "data\\processed\\domestic_declarations_ml_ready.parquet": 367788,
+    "data\\processed\\domestic_declarations_ml_audit.parquet": 618707,
+    "outputs\\reports\\day7_8_eligibility_audit.json": 30670,
+    "outputs\\reports\\day7_8_feature_dictionary.csv": 5502,
+    "outputs\\reports\\day7_8_leakage_audit.json": 2236,
+    "outputs\\reports\\day7_8_preprocessing_spec.json": 154760,
+    "outputs\\reports\\day7_8_runtime.json": 1079,
+    "outputs\\reports\\day7_8_split_summary.json": 2873,
+    "outputs\\reports\\day7_8_threshold_derivation.json": 312126
+  },
+  "source_sha256": {
+    "data\\raw\\DomesticDeclarations.xes": "b681556df88103c13beceb448b66501d26e92d65cc90c185c21affa2aa607b9f",
+    "data\\processed\\domestic_declarations_cleaned.parquet": "f21c1b67840873a2714e140d60634635f2e081d4f6943fe1c06e43dc013d4a8f"
+  },
+  "source_hashes_unchanged": true,
+  "baseline_tests": "91 passed, 1 optional PM4Py warning in 211.12 s"
+}

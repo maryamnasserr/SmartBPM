@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-21",
+  "artifact_version": "1.0",
+  "baseline_tests": {
+    "passed": 116,
+    "warnings": 1,
+    "seconds": 119.42
+  },
+  "final_tests": {
+    "passed": 134,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 235.41
+  },
+  "pip_check": "No broken requirements found",
+  "independent_validation_metric_preprocessing_verification": true,
+  "model_reload_probabilities_exact": true,
+  "test_evaluated": false,
+  "test_predictions_generated": false,
+  "protected_source_hashes_unchanged": true,
+  "browser_passed": true,
+  "rendered_exceptions": 0,
+  "console_errors": 0,
+  "existing_pages_verified": [
+    "Overview",
+    "Activities & resources",
+    "Variants & repetition",
+    "Case boundaries",
+    "Case explorer",
+    "Process Mining",
+    "Performance Investigation",
+    "ML Preparation"
+  ],
+  "mobile_widths": {
+    "Model comparison": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Validation evaluation": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Case prediction explorer": {
+      "viewport": 390,
+      "document": 390
+    },
+    "Research interpretation": {
+      "viewport": 390,
+      "document": 390
+    }
+  },
+  "browser_cold_navigation_seconds": 15.040790899998683,
+  "qa_profile_removed": true,
+  "model_artifact_bytes": 489008,
+  "free_bytes_after_cleanup": 4631355392,
+  "app_url": "http://localhost:8505",
+  "day11_started": false
+}
